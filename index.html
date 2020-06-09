@@ -16,7 +16,7 @@
             var scene = new THREE.Scene();
 
 var camera = new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000)
-camera.position.z = 5;
+camera.position.z = 120;
 
 var renderer = new THREE.WebGLRenderer({antialias: true});
 renderer.setClearColor("#000000");
@@ -34,8 +34,8 @@ window.addEventListener('resize', () => {
 var raycaster = new THREE.Raycaster();
 var mouse = new THREE.Vector2();
 
-var geometry = new THREE.BoxGeometry(1, 1, 1);
-var material = new THREE.MeshLambertMaterial({color: 0x86242A});
+var geometry = new THREE.SphereGeometry(1, 1, 1);
+var material = new THREE.MeshLambertMaterial({color: 0xFFFFFF});
 //var mesh = new THREE.Mesh(geometry, material);
 
 //scene.add(mesh);
