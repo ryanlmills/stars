@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c768ed44-3c08-4f24-a59a-94890e20d421" name="bootcamp-coders.cnm.edu" url="https://bootcamp-coders.cnm.edu/~rmills17/stars/">
+        <fileTransfer rootFolder="/home/rmills17/public_html/stars/" accessType="SFTP" host="bootcamp-coders.cnm.edu" port="22" sshConfigId="727ff750-5d2e-4d64-b0d0-3512fecd8e81" sshConfig="rmills17@bootcamp-coders.cnm.edu:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
